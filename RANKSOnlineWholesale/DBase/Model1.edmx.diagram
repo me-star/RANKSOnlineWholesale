@@ -5,15 +5,15 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="e02c7118f6d14ece972fc3cb49963840" Name="Diagram1">
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.CardInfo" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Cart" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Category" Width="1.5" PointX="1.5" PointY="14.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Customer" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Delivery" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Employee" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.MemberRole" Width="1.5" PointX="6" PointY="5.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Product" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Role" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.CardInfo" Width="1.5" PointX="6.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Cart" Width="1.5" PointX="5.875" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Category" Width="1.5" PointX="3.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Customer" Width="1.5" PointX="3.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Delivery" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Employee" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.MemberRole" Width="1.5" PointX="12" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Product" Width="1.5" PointX="9.375" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RANKSWHOLESALEModel.Role" Width="1.5" PointX="9.5" PointY="1.375" IsExpanded="true" />
         <AssociationConnector Association="RANKSWHOLESALEModel.FK__CardInfo__Custom__32E0915F" ManuallyRouted="false" />
         <AssociationConnector Association="RANKSWHOLESALEModel.FK__Cart__CustomerId__398D8EEE" ManuallyRouted="false" />
         <AssociationConnector Association="RANKSWHOLESALEModel.FK__Cart__ProductId__38996AB5" ManuallyRouted="false" />

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Web;
 
 namespace RANKSOnlineWholesale.Repository
 {
@@ -21,7 +20,13 @@ namespace RANKSOnlineWholesale.Repository
             _dbSet = _DBEntity.Set<Tbl_Entity>();
         }
 
-            public void Add(Tbl_Entity entity)
+        public IEnumerable<Tbl_Entity> GetProduct()
+        {
+            return _dbSet.ToList();
+
+        }
+        
+        public void Add(Tbl_Entity entity)
         {
             _dbSet.Add(entity);
             _DBEntity.SaveChanges();

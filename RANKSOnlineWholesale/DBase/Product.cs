@@ -33,5 +33,11 @@ namespace RANKSOnlineWholesale.DBase
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Cart> Carts { get; set; }
         public virtual Category Category { get; set; }
+
+         public static implicit operator Product(int v)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
